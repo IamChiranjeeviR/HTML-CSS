@@ -1,2 +1,4 @@
 # feedback form
-basic feedback form done using html and CSS
+Basic Forms Designs Using HTML and CSS
+1. Contact forms
+2. FeedBack Forms
