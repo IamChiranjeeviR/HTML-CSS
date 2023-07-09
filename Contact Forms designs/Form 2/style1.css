@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background: tomato;
+}
+.Box{
+  width: 350px;
+  height: 350px;
+  background: white;
+  margin: 200px auto;
+  padding: 10px;
+  border-bottom-right-radius: 80px;
+  border-top-left-radius: 80px;
+  border: 1px solid black;
+}
+form{
+  width: 260px;
+  margin: 20px 37px;
+  text-align: center;
+}
+h1{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+input,textarea{
+  width: 250px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  display: block;
+  border-radius:4px;
+  margin-bottom: 10px;
+  border: 1px solid tomato;
+}
+button{
+  width: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 7px;
+  background: tomato;
+  cursor: pointer;
+}
+button:hover{
+  background: lightcoral;
+}
