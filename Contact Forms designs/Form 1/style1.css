@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: black;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+}
+.page{
+  width: 80%;
+  margin: 50px auto;
+}
+.box{
+  background: white;
+  display: flex;
+  color:black;
+  box-shadow: 0px 5px 15px 0px grey;
+}
+.leftbox{
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.rightbox{
+  flex-basis: 40%;
+  padding: 40px;
+  background: grey;
+}
+h1{
+  margin-bottom: 20px;
+}
+.page p{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.row .group{
+  flex-basis: 45%;
+}
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+.leftbox h3{
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+textarea{
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label{
+  margin-bottom: 10px;
+  display: block;
+}
+button{
+  background: grey;
+  border: none;
+  outline: none;
+  width: 100px;
+  margin-top: 20px;
+  height: 35px;
+  color: white;
+  border-radius: 20px;
+}
+button:hover{
+  cursor: pointer;
+  background: lightslategray;
+  box-shadow: 0px 5px 15px 0px grey;
+}
+.rightbox h3{
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.leftbox:hover{
+  padding:50px;
+  box-shadow: 0px 5px 15px 0px grey ;
+}
+.rightbox:hover{
+  padding: 50px;
+  box-shadow: 0px 5px 15px 0px grey;
+}
+tr td:first-child{
+  padding-right: 20px;
+}
+tr td{
+  padding-top: 20px;
+}
